@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>MyBlogHomeController</servlet-name>
+        <servlet-class>controller.MyBlogHomeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AboutMeController</servlet-name>
+        <servlet-class>controller.AboutMeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OverviewController</servlet-name>
+        <servlet-class>controller.OverviewController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BlogDetailController</servlet-name>
+        <servlet-class>controller.BlogDetailController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyBlogHomeController</servlet-name>
+        <url-pattern>/MyBlogHomeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AboutMeController</servlet-name>
+        <url-pattern>/AboutMeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OverviewController</servlet-name>
+        <url-pattern>/OverviewController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BlogDetailController</servlet-name>
+        <url-pattern>/BlogDetailController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

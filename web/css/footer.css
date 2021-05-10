@@ -1,0 +1,12 @@
+.footer-wrapper{
+    margin: 0 20px;
+}
+.footer-content{ 
+    border-top: 1px lightgrey solid;
+    width: 100%;
+    padding: 27px 0 10px 0;
+}
+.footer-info{
+    margin-bottom:50px;
+}
+

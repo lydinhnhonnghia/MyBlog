@@ -1,0 +1,27 @@
+.content-right{
+    float: left;
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.share-box{
+    border-radius: 10px;
+    box-shadow: 0 2px 10px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.share-header{
+    padding: 11px 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.share-content{
+    padding: 5px 15px 11px 15px;
+    line-height: 22px;
+}
+.share-content a{
+    color: black;
+}
+
